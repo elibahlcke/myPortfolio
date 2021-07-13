@@ -1,0 +1,19 @@
+.contact {
+    background-color:lightseagreen;
+
+    .itemContainer{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+
+        .icon{
+            font-size: 18px;
+
+        }
+        span{
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}
