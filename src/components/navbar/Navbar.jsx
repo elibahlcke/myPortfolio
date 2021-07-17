@@ -5,14 +5,15 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className={"navbar " + (menuOpen && "active")} id="navbar">
         <div className="wrapper">
             <div className="left">
-            </div>
-            <div className="right">
-                <div className="hamburguer" onClick={() => setMenuOpen(!menuOpen)}>
+            <div className="hamburguer" onClick={() => setMenuOpen(!menuOpen)}>
                     <span className="line1"></span>
                     <span className="line2"></span>
                     <span className="line3"></span>
 
                 </div>
+            </div>
+            <div className="right">
+                
             </div>
         </div>
             
